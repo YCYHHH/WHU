@@ -51,4 +51,4 @@ tmv.iloc[:, 2].fillna(tmv.iloc[:, 2].mean())
 tmv.iloc[:, 3].fillna(tmv.iloc[:, 3].mean())
 
 
-final = sm.OLS('',data = fmv)
+#final = sm.OLS('',data = fmv)
